@@ -1,4 +1,8 @@
 package character;
 
-public class Cleric {
+public class Cleric extends Character {
+
+    public Cleric(int health) {
+        super(health);
+    }
 }

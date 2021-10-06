@@ -26,4 +26,12 @@ public class BarbarianTest {
         barbarian.addWeapon(Weapons.SWORD);
         assertEquals(1, barbarian.getWeapons().size());
     }
+
+    @Test
+    public void canEquipWeapon(){
+        barbarian.addWeapon(Weapons.SWORD);
+        barbarian.addWeapon(Weapons.AXE);
+        barbarian.equipWeapon(Weapons.AXE);
+        assertEquals(Weapons.AXE, barbarian.getCurrentWeapon());
+    }
 }

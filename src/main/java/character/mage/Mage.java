@@ -1,12 +1,12 @@
 package character.mage;
 
-import character.Character;
+import character.Player;
 import enums.Creatures;
 import enums.Spells;
 
 import java.util.ArrayList;
 
-public abstract class Mage extends Character {
+public abstract class Mage extends Player {
 
     private ArrayList<Spells> spells;
     private Spells currentSpell;

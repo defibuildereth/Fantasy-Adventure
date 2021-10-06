@@ -1,8 +1,8 @@
 package character.enemy;
 
-import character.Character;
+import character.Player;
 
-public abstract class Enemy extends Character {
+public abstract class Enemy extends Player {
 
     public Enemy(int health) {
         super(health);

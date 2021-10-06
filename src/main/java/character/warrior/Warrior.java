@@ -1,11 +1,11 @@
 package character.warrior;
 
-import character.Character;
+import character.Player;
 import enums.Weapons;
 
 import java.util.ArrayList;
 
-public abstract class Warrior extends Character {
+public abstract class Warrior extends Player {
 
     private ArrayList<Weapons> weapons;
     private Weapons currentWeapon;
